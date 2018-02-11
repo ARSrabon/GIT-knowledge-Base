@@ -15,4 +15,8 @@
 ::: Branch এ Push করার আগে কিছু Rules → Git status দিয়ে কি কি ফাইল Modify করা হইসে সেইগুলা দেখা 
         এরপর → git add fileName ; File Ready করা For commit
 
-::: Git commit -m “My comment” ← Execute করা । 
+::: Git commit -m “My comment” ← Execute করা ।
+
+::: add git ignore file to git → 
+				  git add -f -- "full path"
+		example : git add -f -- "vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php"
