@@ -20,3 +20,6 @@
 ::: add git ignore file to git → 
 		git add -f -- "full path"
 		example : git add -f -- "vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php"
+		
+::: Change Git branch Name → 
+	git branch -m old-name new-name
