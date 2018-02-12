@@ -23,3 +23,6 @@
 		
 ::: Change Git branch Name → 
 	git branch -m old-name new-name
+	
+::: Delete Branch In Remote →
+	git push origin --delete branchName
